@@ -24,9 +24,18 @@
         <div class="wrap-input-label">
             <label for="senha">Senha</label>
             <input type="text" id="senha" placeholder="Insira sua senha">
-
+            <div onclick="showPassword()">
+                <img class="eye" src="./images/eye.png" alt="Olhos" id="eye">
+            </div>
         </div>
+        <p>esqueci minha senha</p>
+        <button onclick="login()">LOGIN</button>
     </div>
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas</h3>
+        <button onclick="fecharError()">❌</button>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 
