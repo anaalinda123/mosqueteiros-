@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "descricao": "Nova Iorque", 
+        "imagem": "../Dados/Images/nova york.jpg",
+        "preco": 5710.48
+},
+{
+    "id": 2,
+    "descricao": "Milão",
+    "imagem": "../Dados/Images/milao.jpg",
+    "preco": 3470.66
+},
+{
+    "id": 3,
+    "descricao": "Amsterdam",
+    "imagem": "../Dados/Images/amsterdam.jpg",
+    "preco": 2458.37
+},
+{
+    "id": 4,
+    "descricao": "Caribe",
+    "imagem": "../Dados/Images/caribe.webp",
+    "preco": 4827.55
+    }
+]
+
+
+
