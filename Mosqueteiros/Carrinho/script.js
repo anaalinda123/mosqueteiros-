@@ -77,6 +77,7 @@ function gerarPedido(){
     link.click()
 
     document.getElementById('pedido').style.display = 'block'
+    window.location.href = "../Loja/index.html"
 }
 function sucessClose(){
     documen.getElementById('pedido').style.display = 'none'

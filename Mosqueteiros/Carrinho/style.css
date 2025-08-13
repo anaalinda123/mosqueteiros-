@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pedido {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: green;
+    color: white;
+    font-size: 1.4rem;
+    width: auto;
+}
+
+.btn-word {
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btn-word img {
+    opacity: 0.7;
+    border-radius: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-word img:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: #0000008f 1px 5px 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    padding-top: 20px;
+    background-image: url('./Image/desktop-wallpaper-airport-17-1920-x-1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-size: 54px;
+    color: #fff;
+}
+
+a {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 1vh;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#lista li {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-bottom: 2px solid white;
+    padding: 12px;
+}
+
+#lista li:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#lista button {
+    background-color: transparent;
+    color: black;
+}
+
+#lista button {
+    background-color: transparent;
+    border: none;
+    opacity: 0.7;
+
+}
